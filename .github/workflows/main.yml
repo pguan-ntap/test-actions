@@ -28,11 +28,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           default_bump: patch
-          release_branches: main
-          dry_run: true
-
-
-
-        
+          release_branches: main       
 
      
